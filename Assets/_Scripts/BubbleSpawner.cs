@@ -1,6 +1,7 @@
 using UnityEngine;
+using Capriccioso;
 
-public class BubbleSpawner : MonoBehaviour
+public class BubbleSpawner : MonoSingleton<BubbleSpawner>
 {
     public Transform parent;
     public GameObject bubblePrefab;
@@ -13,12 +14,14 @@ public class BubbleSpawner : MonoBehaviour
         }
     }
 
-    void SpawnBubbleAtMousePosition()
+
+    public void SpawnBubbleAtMousePosition()
     {
-        Vector3 mousePosition = Input.mousePosition;
-        mousePosition.z =  Camera.main.nearClipPlane;
-        Vector3 worldPosition = Camera.main.ScreenToWorldPoint(mousePosition);
-        worldPosition.z = 0;
-        GameObject bubble = Instantiate(bubblePrefab, worldPosition, Quaternion.identity, parent);
+        Camera cam = Camera.main;
+        Vector2 mousePosition = Input.mousePosition;
+        Vector2 worldPosition = cam.ScreenToWorldPoint(mousePosition);
+        Debug.Log($"mp: {mousePosition} | wp: {worldPosition}");
+
+        GameObject bubble = Instantiate(bubblePrefab, worldPosition, Quaternion.identity);
     }
 }
