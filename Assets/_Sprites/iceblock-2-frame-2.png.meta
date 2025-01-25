@@ -1,0 +1,585 @@
+fileFormatVersion: 2
+guid: 19ff4bf1755870541b51bae9d0702cf0
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -174959061640582105
+    second: iceblock-2-frame-2_0
+  - first:
+      213: -8306909097802308768
+    second: iceblock-2-frame-2_1
+  - first:
+      213: 8733902485894746633
+    second: iceblock-2-frame-2_2
+  - first:
+      213: -7686408662514354531
+    second: iceblock-2-frame-2_3
+  - first:
+      213: -2294500141557784467
+    second: iceblock-2-frame-2_4
+  - first:
+      213: -7008472886219531914
+    second: iceblock-2-frame-2_5
+  - first:
+      213: 231424059322492279
+    second: iceblock-2-frame-2_6
+  - first:
+      213: 3402238802474814182
+    second: iceblock-2-frame-2_7
+  - first:
+      213: 9168805390258815757
+    second: iceblock-2-frame-2_8
+  - first:
+      213: 5381922979905001370
+    second: iceblock-2-frame-2_9
+  - first:
+      213: 1490719445752318272
+    second: iceblock-2-frame-2_10
+  - first:
+      213: 7116734911739351317
+    second: iceblock-2-frame-2_11
+  - first:
+      213: 3738892007086211065
+    second: iceblock-2-frame-2_12
+  - first:
+      213: -2808412518878840297
+    second: iceblock-2-frame-2_13
+  - first:
+      213: -1809222256910163127
+    second: iceblock-2-frame-2_14
+  - first:
+      213: 1041928643264279910
+    second: iceblock-2-frame-2_15
+  - first:
+      213: -6346225343630641271
+    second: iceblock-2-frame-2_16
+  - first:
+      213: -8891375291372301905
+    second: iceblock-2-frame-2_17
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: iceblock-2-frame-2_0
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 108
+        width: 947
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72c6da019ab629df0800000000000000
+      internalID: -174959061640582105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: iceblock-2-frame-2_1
+      rect:
+        serializedVersion: 2
+        x: 998
+        y: 99
+        width: 65
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 063680cff2ee7bc80800000000000000
+      internalID: -8306909097802308768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: iceblock-2-frame-2_2
+      rect:
+        serializedVersion: 2
+        x: 1079
+        y: 126
+        width: 11
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90258a6690e053970800000000000000
+      internalID: 8733902485894746633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: iceblock-2-frame-2_3
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 99
+        width: 11
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d96b858bb04645590800000000000000
+      internalID: -7686408662514354531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: iceblock-2-frame-2_4
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 99
+        width: 47
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d606d5d274c4820e0800000000000000
+      internalID: -2294500141557784467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: iceblock-2-frame-2_5
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 90
+        width: 20
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6799deeda07ecbe90800000000000000
+      internalID: -7008472886219531914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: iceblock-2-frame-2_6
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 99
+        width: 20
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7756560b4fe263300800000000000000
+      internalID: 231424059322492279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: iceblock-2-frame-2_7
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 81
+        width: 38
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6eacf8e3a2e273f20800000000000000
+      internalID: 3402238802474814182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: iceblock-2-frame-2_8
+      rect:
+        serializedVersion: 2
+        x: 494
+        y: 81
+        width: 56
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d03401d8ce32e3f70800000000000000
+      internalID: 9168805390258815757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: iceblock-2-frame-2_9
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 63
+        width: 29
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a97dfb18f6e60ba40800000000000000
+      internalID: 5381922979905001370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: iceblock-2-frame-2_10
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 63
+        width: 56
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04985df007910b410800000000000000
+      internalID: 1490719445752318272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: iceblock-2-frame-2_11
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 63
+        width: 101
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51158d632b8b3c260800000000000000
+      internalID: 7116734911739351317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: iceblock-2-frame-2_12
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 72
+        width: 29
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ffbbef887633e330800000000000000
+      internalID: 3738892007086211065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: iceblock-2-frame-2_13
+      rect:
+        serializedVersion: 2
+        x: 638
+        y: 63
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71a777591b38609d0800000000000000
+      internalID: -2808412518878840297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: iceblock-2-frame-2_14
+      rect:
+        serializedVersion: 2
+        x: 665
+        y: 63
+        width: 74
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 943a32961f954e6e0800000000000000
+      internalID: -1809222256910163127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: iceblock-2-frame-2_15
+      rect:
+        serializedVersion: 2
+        x: 764
+        y: 72
+        width: 65
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6657217a49ca57e00800000000000000
+      internalID: 1041928643264279910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: iceblock-2-frame-2_16
+      rect:
+        serializedVersion: 2
+        x: 872
+        y: 54
+        width: 74
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98770587cadade7a0800000000000000
+      internalID: -6346225343630641271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: iceblock-2-frame-2_17
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 54
+        width: 29
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa19111f74d7b9480800000000000000
+      internalID: -8891375291372301905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      iceblock-2-frame-2_0: -174959061640582105
+      iceblock-2-frame-2_1: -8306909097802308768
+      iceblock-2-frame-2_10: 1490719445752318272
+      iceblock-2-frame-2_11: 7116734911739351317
+      iceblock-2-frame-2_12: 3738892007086211065
+      iceblock-2-frame-2_13: -2808412518878840297
+      iceblock-2-frame-2_14: -1809222256910163127
+      iceblock-2-frame-2_15: 1041928643264279910
+      iceblock-2-frame-2_16: -6346225343630641271
+      iceblock-2-frame-2_17: -8891375291372301905
+      iceblock-2-frame-2_2: 8733902485894746633
+      iceblock-2-frame-2_3: -7686408662514354531
+      iceblock-2-frame-2_4: -2294500141557784467
+      iceblock-2-frame-2_5: -7008472886219531914
+      iceblock-2-frame-2_6: 231424059322492279
+      iceblock-2-frame-2_7: 3402238802474814182
+      iceblock-2-frame-2_8: 9168805390258815757
+      iceblock-2-frame-2_9: 5381922979905001370
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

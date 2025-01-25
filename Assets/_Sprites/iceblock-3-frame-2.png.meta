@@ -1,0 +1,377 @@
+fileFormatVersion: 2
+guid: fbdd854fc2687df458b947eb59c0add3
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4214130599138092312
+    second: iceblock-3-frame-2_0
+  - first:
+      213: -9222783331863428831
+    second: iceblock-3-frame-2_1
+  - first:
+      213: -3488644259871565251
+    second: iceblock-3-frame-2_2
+  - first:
+      213: 985192928542340892
+    second: iceblock-3-frame-2_3
+  - first:
+      213: 4366026695459321458
+    second: iceblock-3-frame-2_4
+  - first:
+      213: -7592798910223781582
+    second: iceblock-3-frame-2_5
+  - first:
+      213: 4080528969768075928
+    second: iceblock-3-frame-2_6
+  - first:
+      213: 7132817132249165357
+    second: iceblock-3-frame-2_7
+  - first:
+      213: 8777723433641234086
+    second: iceblock-3-frame-2_8
+  - first:
+      213: 177301050577341161
+    second: iceblock-3-frame-2_9
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: iceblock-3-frame-2_0
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 308
+        width: 38
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ea15492c866485c0800000000000000
+      internalID: -4214130599138092312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: iceblock-3-frame-2_1
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 334
+        width: 848
+        height: 696
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12103ef8c67120080800000000000000
+      internalID: -9222783331863428831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: iceblock-3-frame-2_2
+      rect:
+        serializedVersion: 2
+        x: 1128
+        y: 335
+        width: 56
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3a56ae7788d59fc0800000000000000
+      internalID: -3488644259871565251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: iceblock-3-frame-2_3
+      rect:
+        serializedVersion: 2
+        x: 1182
+        y: 335
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c173efcafbb1cad00800000000000000
+      internalID: 985192928542340892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: iceblock-3-frame-2_4
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 290
+        width: 56
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 276b9b6b52e379c30800000000000000
+      internalID: 4366026695459321458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: iceblock-3-frame-2_5
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 290
+        width: 101
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23173299e95f0a690800000000000000
+      internalID: -7592798910223781582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: iceblock-3-frame-2_6
+      rect:
+        serializedVersion: 2
+        x: 561
+        y: 272
+        width: 101
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89287ba7a73f0a830800000000000000
+      internalID: 4080528969768075928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: iceblock-3-frame-2_7
+      rect:
+        serializedVersion: 2
+        x: 723
+        y: 272
+        width: 101
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2e2887f36bdcf260800000000000000
+      internalID: 7132817132249165357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: iceblock-3-frame-2_8
+      rect:
+        serializedVersion: 2
+        x: 858
+        y: 290
+        width: 56
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6aececed4fcb0d970800000000000000
+      internalID: 8777723433641234086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: iceblock-3-frame-2_9
+      rect:
+        serializedVersion: 2
+        x: 948
+        y: 281
+        width: 128
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ea47f9bd56e57200800000000000000
+      internalID: 177301050577341161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      iceblock-3-frame-2_0: -4214130599138092312
+      iceblock-3-frame-2_1: -9222783331863428831
+      iceblock-3-frame-2_2: -3488644259871565251
+      iceblock-3-frame-2_3: 985192928542340892
+      iceblock-3-frame-2_4: 4366026695459321458
+      iceblock-3-frame-2_5: -7592798910223781582
+      iceblock-3-frame-2_6: 4080528969768075928
+      iceblock-3-frame-2_7: 7132817132249165357
+      iceblock-3-frame-2_8: 8777723433641234086
+      iceblock-3-frame-2_9: 177301050577341161
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
