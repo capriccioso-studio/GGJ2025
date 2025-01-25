@@ -25,7 +25,8 @@ public class GameManager : MonoSingleton<GameManager>
 
     public void Restart(string scene)
     {
-        GamePositionsReferences.Instance.player.transform.position = GamePositionsReferences.Instance.startPos.position;    
+        GamePositionsReferences.Instance.player.transform.position = GamePositionsReferences.Instance.startPos.position;
+        Player.Instance.RemainingBubbles = Player.Instance.BubbleCount;
         StartGame();
     }
 
@@ -34,6 +35,7 @@ public class GameManager : MonoSingleton<GameManager>
         currentLevel++;
         SceneManager.LoadScene("level_"+currentLevel);
         Restart("Level" + currentLevel);
+        Destroy(Player.Instance.gameObject);
     }
     
 }

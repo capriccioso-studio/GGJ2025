@@ -8,6 +8,8 @@ public class UIManager : MonoSingleton<UIManager>
     public GameObject StartGameUI;
     public GameObject GameOverUI;
     public GameObject InGameUI;
+    
+    public GameplayUIHandler gameplayUIHandler;
 
     public void ShowMainMenu()
     {
