@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      iceblock-2-bottom_0: 581740478981078275
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
