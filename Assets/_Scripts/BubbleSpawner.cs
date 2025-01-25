@@ -17,14 +17,14 @@ public class BubbleSpawner : MonoSingleton<BubbleSpawner>
 
     public void SpawnBubbleAtMousePosition()
     {
-        if(Player.Instance.RemainingBubbles <= 0)
+        if(GamePositionsReferences.Instance.player.RemainingBubbles <= 0)
         {
             return;
         }
         else
         {
-            Player.Instance.RemainingBubbles--;
-            UIManager.Instance.gameplayUIHandler.SetBubblesText(Player.Instance.RemainingBubbles);
+            GamePositionsReferences.Instance.player.RemainingBubbles--;
+            UIManager.Instance.gameplayUIHandler.SetBubblesText(GamePositionsReferences.Instance.player.RemainingBubbles);
         }
 
         Camera cam = Camera.main;

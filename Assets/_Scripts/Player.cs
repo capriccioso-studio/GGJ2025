@@ -8,7 +8,6 @@ public class Player : MonoBehaviour
     public Rigidbody2D rb2d;
     public int BubbleCount;
     public int RemainingBubbles;
-    public static Player Instance; 
     [Header("ColorChanges")]
     public SpriteRenderer spriteRenderer;
     public Color underwaterColor;
@@ -23,9 +22,12 @@ public class Player : MonoBehaviour
     
     public void Start()
     {
-        Instance = this;
         rb2d = GetComponent<Rigidbody2D>();
         RemainingBubbles = BubbleCount;
+        UIManager.Instance.gameplayUIHandler.SetBubblesText(RemainingBubbles);
+        transform.position = GamePositionsReferences.Instance.startPos.position;
+        rb2d.linearVelocity = Vector2.zero;
+
     }
     
     public void OnTriggerEnter2D(Collider2D other)
