@@ -1,15 +1,15 @@
 fileFormatVersion: 2
-guid: 16c7a409a2ed5144aa1bca59e7852079
+guid: 532339a07c639174faabdabf7a764da1
 TrueTypeFontImporter:
   externalObjects: {}
   serializedVersion: 4
   fontSize: 16
-  forceTextureCase: 0
+  forceTextureCase: -2
   characterSpacing: 0
   characterPadding: 1
   includeFontData: 1
   fontNames:
-  - 04b
+  - Pixelify Sans
   fallbackFontReferences: []
   customCharacters: 
   fontRenderingMode: 0

@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 2a7a72a10fa93f241b3820fee27a302a
+guid: f1ca35938a5d84849ba82351c595aa7a
 TrueTypeFontImporter:
   externalObjects: {}
   serializedVersion: 4
@@ -9,7 +9,7 @@ TrueTypeFontImporter:
   characterPadding: 1
   includeFontData: 1
   fontNames:
-  - Daydream
+  - Pixelify Sans
   fallbackFontReferences: []
   customCharacters: 
   fontRenderingMode: 0
