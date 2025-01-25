@@ -17,6 +17,16 @@ public class BubbleSpawner : MonoSingleton<BubbleSpawner>
 
     public void SpawnBubbleAtMousePosition()
     {
+        if(GamePositionsReferences.Instance.player.RemainingBubbles <= 0)
+        {
+            return;
+        }
+        else
+        {
+            GamePositionsReferences.Instance.player.RemainingBubbles--;
+            UIManager.Instance.gameplayUIHandler.SetBubblesText(GamePositionsReferences.Instance.player.RemainingBubbles);
+        }
+
         Camera cam = Camera.main;
         Vector2 mousePosition = Input.mousePosition;
         Vector2 worldPosition = cam.ScreenToWorldPoint(mousePosition);

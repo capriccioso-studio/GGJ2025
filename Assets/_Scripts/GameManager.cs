@@ -25,15 +25,19 @@ public class GameManager : MonoSingleton<GameManager>
 
     public void Restart(string scene)
     {
-        GamePositionsReferences.Instance.player.transform.position = GamePositionsReferences.Instance.startPos.position;    
+        GamePositionsReferences.Instance.player.transform.position = GamePositionsReferences.Instance.startPos.position;
+        GamePositionsReferences.Instance.player.RemainingBubbles = GamePositionsReferences.Instance.player.BubbleCount; 
+        UIManager.Instance.gameplayUIHandler.SetBubblesText(GamePositionsReferences.Instance.player.RemainingBubbles);
+
         StartGame();
     }
 
     public void NextLevel()
     {
         currentLevel++;
+        Destroy(GamePositionsReferences.Instance.player.gameObject);
         SceneManager.LoadScene("level_"+currentLevel);
-        Restart("Level" + currentLevel);
+        UIManager.Instance.gameplayUIHandler.LevelText.text = $"Level {currentLevel}";
     }
     
 }
