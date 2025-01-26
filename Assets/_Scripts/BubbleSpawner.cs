@@ -5,6 +5,7 @@ public class BubbleSpawner : MonoSingleton<BubbleSpawner>
 {
     public Transform parent;
     public GameObject bubblePrefab;
+    public AudioClip bubbleSpawnSound;
 
     void Update()
     {
@@ -26,6 +27,8 @@ public class BubbleSpawner : MonoSingleton<BubbleSpawner>
             GamePositionsReferences.Instance.player.RemainingBubbles--;
             UIManager.Instance.gameplayUIHandler.SetBubblesText(GamePositionsReferences.Instance.player.RemainingBubbles);
         }
+        
+        GetComponent<AudioSource>().PlayOneShot(bubbleSpawnSound);
 
         Camera cam = Camera.main;
         Vector2 mousePosition = Input.mousePosition;

@@ -7,7 +7,7 @@ public class GamePositionsReferences : MonoBehaviour
     public Player player;
     public static GamePositionsReferences Instance;
 
-    public void Start()
+    public void Awake()
     {
         Instance = this;
     }

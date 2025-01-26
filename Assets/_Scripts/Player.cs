@@ -14,13 +14,13 @@ public class Player : MonoBehaviour
     
     [Header("SFX")]
     public AudioSource audioSource;
-    public AudioClip snowHitSFX, slideSFX;
+    public AudioClip snowHitSFX, slideSFX, waterSplash;
     public bool isSliding;
 
     [Header("Feedbacks")] 
     public MMF_Player HitGroundFeedback;
     
-    public void Start()
+    public void Awake()
     {
         rb2d = GetComponent<Rigidbody2D>();
         RemainingBubbles = BubbleCount;
@@ -35,6 +35,9 @@ public class Player : MonoBehaviour
         if (other.CompareTag("Underwater") && spriteRenderer != null)
         {
             spriteRenderer.color = underwaterColor;
+            float velocityMagnitude = rb2d.linearVelocity.magnitude;
+            float volume = Mathf.Clamp01(velocityMagnitude / 10f);
+            audioSource.PlayOneShot(waterSplash, 0.1f);
         }
     }
     
@@ -47,6 +50,8 @@ public class Player : MonoBehaviour
             audioSource.PlayOneShot(snowHitSFX, volume);
             HitGroundFeedback.PlayFeedbacks();
         }
+        
+        
     }
     
     public void OnCollisionStay2D(Collision2D other)
@@ -62,6 +67,11 @@ public class Player : MonoBehaviour
         if (other.gameObject.CompareTag("Ground"))
         {
         }
+    }
+
+    public void Die()
+    {
+        GetComponent<Animator>().SetTrigger("Die");
     }
 
 

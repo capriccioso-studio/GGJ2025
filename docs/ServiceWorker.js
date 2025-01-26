@@ -1,4 +1,4 @@
-const cacheName = "DefaultCompany-GGJ2025-1.0";
+const cacheName = "Capriccioso-Bubble Flipper-1.0";
 const contentToCache = [
     "Build/docs.loader.js",
     "Build/docs.framework.js",

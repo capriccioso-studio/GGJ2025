@@ -1,9 +1,9 @@
 {
-    "name": "GGJ2025",
-    "short_name": "GGJ2025",
+    "name": "Bubble Flipper",
+    "short_name": "Bubble Flipper",
     "start_url": "index.html",
     "display": "fullscreen",
-    "background_color": "#231F20",
+    "background_color": "#245F80",
     "theme_color": "#000",
     "description": "",
     "icons": [{
